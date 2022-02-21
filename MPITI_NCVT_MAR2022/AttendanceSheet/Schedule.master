@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Schedule.master.cs" Inherits="SchedulerSep2014_Schedule" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+    <title>::MPITI::</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="outer">
+            <div id="outer2">
+                <div id="header">
+                    <h1>ATTEST TESTING SERVICES</h1>
+                    <h2></h2>
+                </div>
+                <div id="menu">
+                   <%-- <ul>
+                        <li id="link1" runat="server"><a href="Home.aspx">Dash-Board</a></li>
+                        <li id="link2" runat="server"><a href="CollegeEntry.aspx">Add College</a></li>
+                        <li id="link3" runat="server"><a href="EditCollegeEntry.aspx">Edit College</a></li>
+                        <li id="link4" runat="server"><a href="AddExamDate.aspx">Add/Edit Exam Date</a></li>
+                        <li id="link5" runat="server"><a href="CreateCapacityCetnerwise.aspx">Create Capacity</a></li>
+                        <li style="display: none" id="link6" runat="server"><a href="UnderConstruction.aspx">Get Scheduled Data</a></li>
+                        <li id="link7" runat="server"><a href="GenerateRoaster.aspx">Roster</a></li>
+                        <li id="link8" runat="server" visible="false"><a href="#">Pre-Test Feedback</a></li>
+                        <li><a href="Logout.aspx">Log Out</a></li>
+                    </ul>--%>
+                </div>
+                <div id="content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>
+                            <asp:ScriptManager ID="ScriptManager1" runat="server">
+                            </asp:ScriptManager>
+                        </p>
+                        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        </asp:UpdatePanel>
+                    </asp:ContentPlaceHolder>
+                </div>
+                <%-- <div id="footer"><br />
+      <p style="color:Black; font-size:x-small; vertical-align:top; font-family:Verdana;">Copyright &copy; 2016 UP Jal Nigam Booking Window. Design by <a href="http://www.Attest.com/">Attest Testing Services</a>.</p>
+    </div>--%>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
